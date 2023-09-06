@@ -6,6 +6,7 @@ To represent any one real-world problem in MDP form.
 To develop a AI agent which controls the level of fluoride percentage in water.
 
 ### State Space
+```
 {A,B,C} -> {0,1,2}
 
 where,
@@ -15,8 +16,9 @@ A->LOWER than required
 B->CORRECT amount
 
 C->HIGHER than required
-
+```
 ### Sample State
+```
 A->0-lower than required
 
 Action Space
@@ -27,8 +29,9 @@ where,
 H -> higher the fluoride percent
 
 L -> higher the fluoride percent
-
-### Action Space
+```
+### Action Space:
+```
 {H,L} -> {0,1}
 
 where,
@@ -41,7 +44,7 @@ H -> 0
 
 which means we have to increase the fluoride percent in water
 
-
+```
 ### Reward Function
 ```
 R = { +1 , for correct amount of fluoride
